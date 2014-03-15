@@ -13,7 +13,7 @@ Install the module with: `npm install sortie`
 var sortie = require('sortie');
 
 var numbers = [3, 1, 2];
-console.log(sortie.insertion(numbers));
+console.log(sortie.insertionSort(numbers));
 // expect [1, 2, 3]
 
 var words = ['cat', 'dog', 'bird'];
